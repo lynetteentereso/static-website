@@ -9,28 +9,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>     
-        
-        <!-- JS for Toggle -->
-        <script>
-            $(function() {
-            $(".toggle").click(function() {
-                if ($(".item").hasClass("active")) {
-                    $(".item").removeClass("active");
-                    $(".item").slideDown();
-                } else {
-                    $(".item").addClass("active");
-                    $(".item").slideUp();
-                }
-            });
-        });
-        </script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>    
     </head>
     <body>
         <nav>
             <div class="nav-wrap">
                 <ul class="menu">
-                    <li class="logo"><a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"</a></li>
+                    <li class="logo"><a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"></a></li>
                     <li class="item"><a class="active" href="index.html">Home</a></li>
                     <li class="item"><a href="listings.html">Listings</a></li>
                     <li class="item"><a href="about.html">About</a></li>
@@ -242,7 +227,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"</a>
+                            <a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"></a>
                         </div>          
                         <div class="footer-txt">
                             <p>Elisabeth Brothers is a licensed realtor with <a id="red" href="https://www.occupyrealestategroup.com/" target="_blank">Occupy Real Estate Group</a> and an expert on buying and selling properties in North Florida.</p>
@@ -280,5 +265,20 @@
                 </div>  
             </div>           
         </footer>  
+
+        <!-- JS for Toggle -->
+        <script>
+            $(document).ready(function() {
+                $(".toggle").click(function() {
+                    if ($(".item").hasClass("active")) {
+                        $(".item").slideDown();
+                        $(".item").removeClass("active");                        
+                    } else {
+                        $(".item").slideUp();
+                        $(".item").addClass("active");
+                    }
+                });
+            });
+        </script>
     </body>      
 </html>

@@ -154,12 +154,13 @@ a:hover{
     padding: 15px 5px;
 }
 .button{
+    width: 210px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #f37c0c;
-    padding: 15px 15px;
+    padding: 20px 30px;
     border: 1px solid #e75b03;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: all .25s ease-in;
     color: #fff
 }
@@ -410,11 +411,13 @@ label {
     margin-top: 10px;
     margin-bottom: 3px;
 }
-input{
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
     padding: 10px;
     border: 1px solid #ff6302;
     border-radius: 5px;
-    width: 200px;
+    min-width: 100%;
 }
 textarea{
     min-height: 100px;
@@ -424,6 +427,7 @@ textarea{
     border-radius: 5px;
 }
 input[type="submit"]{
+    border-radius: 5px;
     padding: 5px;
     background-color:#f37c0c;
     border: 1px solid #e75b03;
@@ -797,7 +801,7 @@ input[name="r"]{
     background: #f37c0c;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 25px;
+    border-radius: 5px;
     font-size: 12px;
     letter-spacing: 2px;
     cursor: pointer;
