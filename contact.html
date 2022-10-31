@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EB | EB Real Estate Group</title>
+        <meta name="description" content="Your most reliable House Match-Maker in Florida!">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>     
+        
+        <!-- JS for Toggle -->
+        <script>
+            $(function() {
+            $(".toggle").click(function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                    $(".item").slideDown();
+                } else {
+                    $(".item").addClass("active");
+                    $(".item").slideUp();
+                }
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrap">
+                <ul class="menu">
+                    <li class="logo"><a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"</a></li>
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="listings.html">Listings</a></li>
+                    <li class="item"><a href="about.html">About</a></li>
+                    <li class="item "><a class="active" href="contact.html">Contact</a></li>
+                    <li class="toggle"><span class="bars"></span></li>               
+                </ul>
+            </div>
+        </nav>
+
+        <main class="contact">
+            <div class="row">
+                <div class="banner2">
+                    <img src="img/contactbanner2.png" alt="EBs Cover Photo">
+                </div>
+            </div>
+            <div class="page-wrap">
+                <div class="right">
+                    <div class="row">
+                        <div class="logo">
+                            <img src="img/eblogo.png" alt="EB Logo">
+                        </div>
+                    </div>
+                    <div class="details">
+                        <table>
+                            <tr>
+                                <td><i class="fas fa-map-marker-alt"></i></td>
+                                <td><p>25th Street, Jacksonville, FL 32202</p></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-phone-alt"></i></td>
+                                <td><p>(888) 123-4567</p></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-envelope"></i></td>
+                                <td><p>sample@eb.com</p></td> 
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-clock"></i></td>
+                                <td><p>Monday - Friday, 9:00 AM to 5:00 PM</p></td>
+                            </tr>
+                        </table>                          
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="row">
+                        <div class="row-title">
+                            <h1>We would <span id="orange">love</span> to hear from you!</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-wrap">
+                            <form class="form">                           
+                                <label for="name">Name</label>
+                                <input id="name" type="text" />
+                                <label for="email">Email Address</label>
+                                <input id="emai" type="email" />
+                                <label for="phone">Phone</label>
+                                <input id="phone" type="tel" />
+                                <label>Message</label>
+                                <textarea></textarea>
+                                <input type="submit" value="Send" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/eblogo.png" alt="EB Logo"</a>
+                    </div>          
+                    <div class="footer-txt">
+                        <p>Elisabeth Brothers is a licensed realtor with EB Real Estate Group and an expert on buying and selling properties in North Florida.</p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <h4>Quick Links</h4><br>
+                    <ul>
+                        <li class="ql"><a href="index.html">Home</a></li>
+                        <li class="ql"><a href="listings.html">Listings</a></li>
+                        <li class="ql"><a href="about.html">About</a></li>
+                        <li class="ql"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>  
+                <div class="col">
+                        <h4>Stay connected with Elisabeth</h4>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to our Newsletters</h4>                    
+                            <div class="subscribe">
+                                <input type="email" class="input" placeholder="Enter your email">
+                                <i class="fas fa-envelope"></i>
+                                <div class="btn">SUBSCRIBE</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <small>&copy;2021 EB. All Rights Reserved.</small>
+            </div>  
+        </div>           
+    </footer>  
+</body>      
+</html>

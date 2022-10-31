@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elisabeth Brothers | Occupy Real Estate Group</title>
+        <meta name="description" content="Your most reliable House Match-Maker in Florida!">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>     
+        
+        <!-- JS for Toggle -->
+        <script>
+            $(function() {
+            $(".toggle").click(function() {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                    $(".item").slideDown();
+                } else {
+                    $(".item").addClass("active");
+                    $(".item").slideUp();
+                }
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrap">
+                <ul class="menu">
+                    <li class="logo"><a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"</a></li>
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="listings.html">Listings</a></li>
+                    <li class="item"><a href="about.html">About</a></li>
+                    <li class="item"><a href="contact.html">Contact</a></li>
+                    <li class="toggle"><span class="bars"></span></li>               
+                </ul>
+            </div>
+        </nav>
+
+        <main class="property-details">
+            <div class="property-info orange">
+                <h1>549 Links Dr</h1>
+                <h3>Orange Park, FL 32073</h3>
+                <h2><i class="fas fa-tag"></i><span> $465,000</span></h2>
+            </div>
+            <!-- Image Slider-->
+            <div class="slidershow">
+                <div class="slides">
+                    <input type="radio" name="r" id="r1" />
+                    <input type="radio" name="r" id="r2" />
+                    <input type="radio" name="r" id="r3" />
+                    <input type="radio" name="r" id="r4" />
+                    <input type="radio" name="r" id="r5" />
+                    <div class="slide s1">
+                        <img src="img/properties/549-Golden-Links-Dr-4.png" alt="Property Image">
+                    </div>
+                    <div class="slide">
+                        <img src="img/properties/549-Golden-Links-Dr-3.png" alt="Property Image">
+                    </div>
+                    <div class="slide">
+                        <img src="img/properties/549-Golden-Links-Dr-5.png" alt="Property Image">
+                    </div>
+                    <div class="slide">
+                        <img src="img/properties/549-Golden-Links-Dr-6.png" alt="Property Image">
+                    </div>
+                    <div class="slide">
+                        <img src="img/properties/549-Golden-Links-Dr-10.png" alt="Property Image">
+                    </div>
+                </div>
+                <div class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                        <label for="r5" class="bar"></label>     
+                </div>
+            </div> <!-- /Image Slider-->
+            <div class="property-facts">
+                <h2>Facts and Features</h2>
+                <table>
+                    <tr>
+                        <th>Property Type:</th>
+                        <td>Single Family</td>
+                    </tr>
+                    <tr>
+                        <th>Beds:</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Baths:</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Square Footage:</th>
+                        <td>3,555 sqft</td>
+                    </tr>
+                    <tr>
+                        <th>Year Built:</th>
+                        <td>1999</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="property-description">  
+                <h2>Property Description</h2>             
+                <div class="row">                   
+                    <p>Lovely gated community. This home has an excellent floor plan with split bedrooms if your looking for privacy. Huge bonus/bedroom upstairs with full bath. Roof installed late 2020. New water heater. Freshly painted exterior. Enjoy your large outdoor screened lanai. Solar panels installed to help reduce your electric bill when using your own hot tub. Large wall unit in upstairs will be left behind by the sellers. Dishwasher will be replaced with a new one. Propane gas tank will be filled before closing. None of the chandeliers or drapery and drapery hardware convey. Highest and best due Friday June 4th at 5PM.</p>
+                </div>
+                
+                <div class="row2">  
+                    <h2>Appliances Included</h2>  
+                    <ul>
+                        <li>Dishwasher</li>
+                        <li>Disposal</li>
+                        <li>Microwave</li>
+                        <li>Electric Range</li>
+                        <li>Refrigerator</li>
+                    </ul>
+                </div>
+            </div>
+            <a class="button" href="contact.html">Inquire About This Property</a>
+        </main>
+    </body>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/eblogo.png" alt="Elisabeth Brothers Logo"</a>
+                    </div>          
+                    <div class="footer-txt">
+                        <p>Elisabeth Brothers is a licensed realtor with <a id="red" href="https://www.occupyrealestategroup.com/" target="_blank">Occupy Real Estate Group</a> and an expert on buying and selling properties in North Florida.</p>
+                    </div>
+                </div>  
+                <div class="col">
+                    <h4>Quick Links</h4><br>
+                    <ul>
+                        <li class="ql"><a href="index.html">Home</a></li>
+                        <li class="ql"><a href="listings.html">Listings</a></li>
+                        <li class="ql"><a href="about.html">About</a></li>
+                        <li class="ql"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>  
+                <div class="col">
+                        <h4>Stay connected with Elisabeth</h4>
+                        <div class="social">
+                            <a href="https://www.facebook.com/ElisabethTheRealtor" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/channel/UCM0l6-LWPWvH4tg6b8Yxrnw" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Subscribe to our Newsletters</h4>                    
+                            <div class="subscribe">
+                                <input type="email" class="input" placeholder="Enter your email">
+                                <i class="fas fa-envelope"></i>
+                                <div class="btn">SUBSCRIBE</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <small>&copy;2021 Elisabeth Brothers. All Rights Reserved.</small>
+            </div>  
+        </div>           
+    </footer>  
+</body>      
+</html>
